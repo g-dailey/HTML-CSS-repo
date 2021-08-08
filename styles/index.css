@@ -1,0 +1,132 @@
+@import "../styles/social-links.css";
+@import "../styles/media-queries.css";
+@import "../styles/animation.css";
+
+body{
+    margin:0;
+    font-family: "Source Sans Pro", sans-serif;
+    
+}
+.header{
+    background-image:url("../images/coffee.jpeg");
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; 
+    line-height: 4;
+}
+
+.header a{
+    text-decoration: none;
+    color:#111;
+}
+
+.header a:hover{
+    color:#752206;
+
+
+}
+
+.nav a{
+    color:black;
+
+}
+
+.nav a:hover{
+    color:#999695;
+    background: linear-gradient(45deg, #bcbebe, #3d3e3f);
+    color:#fff;
+    padding: 2px 4px;
+    border-radius: 20px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+
+.nav{
+    list-style: none;
+    font-size: 1.5rem;
+    margin:0;
+    padding:0;
+    display:flex;
+
+}
+.nav li{
+    margin-left: 20px;
+}
+
+.main{
+    background-color:#f8f7f6;
+    justify-content: contain;
+    padding:10px 40px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.main-inner{
+    max-width:760px;
+
+}
+
+.main h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin:0;
+    padding-top: 120px;
+}
+
+.main p{
+    font-size: 1.19rem;
+    line-height: 1.5;
+}
+
+.button{
+    background: linear-gradient(45deg, #b0b0b3, #616163);
+    color:#fff;
+    text-decoration:none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+
+.button:hover{
+    color:#c3cae9;
+
+}
+.coffeepic{
+    animation:drop 1.5s ease;
+}
+
+
+.feature-inner{
+    max-width:1900px;
+    max-height: fit-content;
+    background-image: url("../images/greenbackground cofee.jpeg");
+    background-position: contain;
+    color:white;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap:60px;
+    border-radius: 10px;
+    
+}
+.feature-item{
+    padding-left:15px;
+    padding-right:10px;
+}
+
+.more-details{
+    background-image: url("../images/dublin-iced-coffee.jpeg");
+}
+
+.small-details-text{
+    position:relative;
+    margin: 100px;
+    padding-right: 800px;
+    padding-top:350px;
+}
+
+
+

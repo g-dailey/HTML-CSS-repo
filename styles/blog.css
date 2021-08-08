@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    display:flex;
+    position:absolute;
+    bottom:87%;
+    font-size: 1.5em;
+}
+
+body{
+    display:flex;
+    height:90vh;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg, #f4f6f7, #abbdc5);
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:#fff;
+    padding:25px 30px;
+    border-radius:5px;
+}
+
+.container .title{
+    font-size:25px;
+    font-weight:500;
+    position: relative;
+}
+
+.gender-list .cat label{
+    display: flex;
+    align-items:center;
+}
+
+.notes{
+    display:flex;
+    position: relative;
+
+}
+
+.social-links{
+    display:grid;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.social-links a{
+    display: grid;
+    text-decoration: none;
+    font-style: none;
+    padding: 10px ;
+}
+
+.footer{
+    display:flex;
+    position: absolute;
+    bottom:10%;
+    justify-content: center;
+    background-color: #97979b;
+    padding: 10px 10px;
+
+}
+
+.return-home{
+    display:flex;
+    position:absolute;
+    bottom:16%;
+    background: linear-gradient(45deg, #b0b0b3, #616163);
+    color:#fff;
+    text-decoration:none;
+    list-style:none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+
+
